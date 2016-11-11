@@ -30,7 +30,6 @@ a {
 h1 {
     font-size: 30px;
     line-height: 42px;
-    font-family: 'Lato', arial, sans-serif;
 }
 
 h2 {
@@ -134,4 +133,63 @@ form {
 .facts i {
     margin-right: 10px;
     font-size: 19px;
+}
+
+/* ==========================Section Media and Providers========================== */
+
+
+/* magazines image */
+
+.magazines{
+    background-color: rgb(203,202,203);
+    padding: 10px 0;
+    text-align: center;
+    opacity: 0.5;
+    margin-bottom: 40px;
+
+}
+
+.magazines img {
+    height: 40px;
+    width: auto;
+}
+
+/* Text from section goes her */
+.media-and-providers {
+    padding: 0px 0px 20px 0;
+}
+.text {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.text h2 {
+    margin-bottom: 15px;
+    color: #F79824;
+    font-weight: 400;
+}
+
+.text p {
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+#site-first-part {
+    font-weight: 600;
+}
+
+#site-second-part {
+    font-weight: 600;
+    color: #006795;
+}
+
+/* Providers */
+
+.providers img {
+    height: 60px;
+    width: auto;
+}
+
+.providers {
+    text-align: center;
 }
