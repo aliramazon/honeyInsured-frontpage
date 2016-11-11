@@ -1,0 +1,137 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', arial, sans-serif;
+}
+
+
+body, html {
+    -webkit-text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* General Settings */
+
+.container {
+    min-width: 1200px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    fontt-
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 42px;
+    font-family: 'Lato', arial, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+p {
+    font-size: 19px;
+    line-height: 27px;
+}
+
+/* =================================Header================================= */
+/* Background image */
+
+.hero-image{
+    background-image: linear-gradient(rgba(62,42,63,.7),rgba(62,42,63,.7)), url(images/hero.png);
+    background-size: cover;
+    color: #fff;
+    height: 450px;
+    background-position: 85% 30%;
+    position: relative;
+}
+
+/* Logo and Navbar */
+nav {
+    width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.top-nav {
+    display: inline-block;
+    margin-left: 625px;
+    margin-top: 35px;
+    vertical-align: top;
+
+}
+.top-nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Hero box */
+
+.hero-box {
+    width: 750px;
+    margin: 40px auto 30px;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+}
+
+#zipcode{
+    width: 300px;
+    padding: 12px;
+    margin-right: -4px;
+    outline: none;
+    border-style: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+
+#button {
+    background-color: #F79824;
+    width: 200px;
+    border: none;
+    padding: 12px;
+    color: #fff;
+    outline: none;
+    transition: background-color 0.8s;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+#button:hover {
+    background-color: #e67e22;
+}
+
+/* Hero-fact-box */
+
+.hero-fact-box {
+    width: 100%;
+    padding: 25px 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+}
+.facts li {
+    display: inline-block;
+    margin: 0px 80px;
+}
+
+.facts i {
+    margin-right: 10px;
+    font-size: 19px;
+}
