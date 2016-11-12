@@ -320,6 +320,22 @@ cite img {
     padding-top: 50px;
 }
 
+.we-differ-text {
+    width: 780px;
+    margin: auto;
+}
+
+.we-differ-text h2 {
+    color: #F79824;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.we-differ-text p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
 
 .research-text {
     width: 375px;
@@ -335,6 +351,7 @@ cite img {
     width: 300px;
     display: inline-block;
 }
+
 
 /* ==========================Section What we offer========================== */
 
