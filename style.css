@@ -24,12 +24,11 @@ ul {
 a {
     text-decoration: none;
     color: #fff;
-    fontt-
 }
 
 h1 {
-    font-size: 30px;
-    line-height: 42px;
+    font-size: 32px;
+    line-height: 44px;
 }
 
 h2 {
@@ -45,6 +44,7 @@ p {
 /* Background image */
 
 .hero-image{
+    background-image: -webkit-linear-gradient(rgba(62,42,63,.7),rgba(62,42,63,.7)), url(images/hero.png);
     background-image: linear-gradient(rgba(62,42,63,.7),rgba(62,42,63,.7)), url(images/hero.png);
     background-size: cover;
     color: #fff;
@@ -106,6 +106,7 @@ form {
     padding: 12px;
     color: #fff;
     outline: none;
+    -webkit-transition: background-color 0.8s;
     transition: background-color 0.8s;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
@@ -139,11 +140,14 @@ form {
 
 
 /* magazines image */
+.media-and-providers {
+    padding: 0px 0px 30px 0;
+    text-align: center;
+}
 
 .magazines{
     background-color: rgb(203,202,203);
     padding: 10px 0;
-    text-align: center;
     opacity: 0.5;
     margin-bottom: 45px;
 
@@ -155,13 +159,9 @@ form {
 }
 
 /* Text from section goes her */
-.media-and-providers {
-    padding: 0px 0px 30px 0;
-}
 .text {
     width: 780px;
     margin: auto;
-    text-align: center;
 }
 
 .text h2 {
@@ -190,9 +190,6 @@ form {
     width: auto;
 }
 
-.providers {
-    text-align: center;
-}
 
 
 /* ==========================Section Recommendations========================== */
@@ -200,6 +197,7 @@ form {
 /* Background image */
 
 .recommendation {
+    background-image: -webkit-linear-gradient(rgba(31,87,122,.6), rgba(31,87,122,.6)), url(images/people.png);
     background-image: linear-gradient(rgba(31,87,122,.6), rgba(31,87,122,.6)), url(images/people.png);
     background-size: cover;
     height: 450px;
@@ -244,4 +242,220 @@ cite img {
     display: inline-block;
     position: relative;
     top: 20px;
+}
+
+
+/* ==========================Section What we offer========================== */
+
+.what-we-offer {
+    text-align: center;
+    padding-top: 50px;
+}
+.offer {
+    margin-bottom: 30px;
+}
+
+.image-box {
+    display: inline-block;
+    width: 450px;
+    vertical-align: top;
+}
+
+.image-box img {
+    width: 450px;
+    height: auto;
+}
+
+.text-box {
+    display: inline-block;
+    width: 450px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.text-box h2 {
+    color: #F79824;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.text-box p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.go-up {
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.go-up1 {
+    margin-top: -70px;
+}
+
+/* ==========================Section What we offer========================== */
+
+.inspiration {
+    background-image: -webkit-linear-gradient(rgba(31,87,122,.7), rgba(31,87,122,.7)), url(images/tools.png);
+    background-image: linear-gradient(rgba(31,87,122,.7), rgba(31,87,122,.7)), url(images/tools.png);
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding-top: 65px;
+}
+
+.inspiration h2 {
+    font-weight: 300;
+    line-height: 50px;
+}
+
+
+/* ==========================Section What we offer========================== */
+
+.we-differ {
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.research-text {
+    width: 375px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 40px;
+    text-align: left;
+    font-weight: 300;
+    vertical-align: top;
+}
+
+.research-bar {
+    width: 300px;
+    display: inline-block;
+}
+
+/* ==========================Section What we offer========================== */
+
+
+.get-recommendation {
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(images/ready.png);
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(images/ready.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center;
+    height: 200px;
+    color: #fff;
+}
+.wrapper {
+    padding-top: 40px;
+    font-weight: 300;
+}
+
+.wrapper h2 {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+/* ==========================Footer========================== */
+footer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-wrapper {
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #CCCCCC;
+}
+.bottom-navigation  a {
+    display: block;
+    color: #3594D5;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 400;
+}
+
+.bottom-navigation a:hover {
+    text-decoration:underline;
+}
+
+.bottom-navigation span {
+    color: #34495e;
+}
+.bottom-navigation {
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 30px;
+}
+.bottom-navigation ul {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.terms {
+    display: inline-block;
+    width: 550px;
+    text-align: left;
+}
+
+.terms p {
+    font-size: 11px;
+    line-height: 15px;
+    color: #9D9D9D;
+}
+
+.terms span {
+    text-decoration: underline;
+}
+
+
+
+/* Socials and Badge */
+.socials-badge {
+    text-align: left;
+}
+.socials {
+    display: inline-block;
+    padding-left: 15px;
+    vertical-align: top;
+}
+.socials li {
+    display: inline-block;
+}
+.socials a {
+    color: black;
+    font-size: 30px;
+    letter-spacing: 20px;
+}
+
+.badge {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.fa-twitter-square {
+    color: #4DA7DE;
+}
+.fa-facebook-square {
+    color: #3E5B98;
+}
+
+.fa-google-plus-square {
+    color: #D93E2D;
+}
+
+
+.copyright {
+    font-size: 14px;
+    color: #34495e;
+}
+
+.copyright a {
+    color: #e74c3c;
 }
