@@ -1,12 +1,11 @@
-
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Lato', arial, sans-serif;
+    font-family: "Lato", arial, sans-serif;
 }
 
-
-body, html {
+body,
+html {
     -webkit-text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
@@ -43,9 +42,17 @@ p {
 /* =================================Header================================= */
 /* Background image */
 
-.hero-image{
-    background-image: -webkit-linear-gradient(rgba(62,42,63,.7),rgba(62,42,63,.7)), url(images/hero.png);
-    background-image: linear-gradient(rgba(62,42,63,.7),rgba(62,42,63,.7)), url(images/hero.png);
+.hero-image {
+    background-image: -webkit-linear-gradient(
+            rgba(62, 42, 63, 0.7),
+            rgba(62, 42, 63, 0.7)
+        ),
+        url(images/hero.png);
+    background-image: linear-gradient(
+            rgba(62, 42, 63, 0.7),
+            rgba(62, 42, 63, 0.7)
+        ),
+        url(images/hero.png);
     background-size: cover;
     color: #fff;
     height: 450px;
@@ -69,7 +76,6 @@ nav {
     margin-left: 625px;
     margin-top: 35px;
     vertical-align: top;
-
 }
 .top-nav li {
     display: inline-block;
@@ -88,7 +94,7 @@ form {
     margin-top: 30px;
 }
 
-#zipcode{
+#zipcode {
     width: 300px;
     padding: 12px;
     margin-right: -4px;
@@ -98,9 +104,8 @@ form {
     border-bottom-left-radius: 2px;
 }
 
-
 #button {
-    background-color: #F79824;
+    background-color: #f79824;
     width: 200px;
     border: none;
     padding: 12px;
@@ -138,19 +143,17 @@ form {
 
 /* ==========================Section Media and Providers========================== */
 
-
 /* magazines image */
 .media-and-providers {
     padding: 0px 0px 30px 0;
     text-align: center;
 }
 
-.magazines{
-    background-color: rgb(203,202,203);
+.magazines {
+    background-color: rgb(203, 202, 203);
     padding: 10px 0;
     opacity: 0.5;
     margin-bottom: 45px;
-
 }
 
 .magazines img {
@@ -166,7 +169,7 @@ form {
 
 .text h2 {
     margin-bottom: 15px;
-    color: #F79824;
+    color: #f79824;
     font-weight: 300;
 }
 
@@ -190,15 +193,21 @@ form {
     width: auto;
 }
 
-
-
 /* ==========================Section Recommendations========================== */
 
 /* Background image */
 
 .recommendation {
-    background-image: -webkit-linear-gradient(rgba(31,87,122,.6), rgba(31,87,122,.6)), url(images/people.png);
-    background-image: linear-gradient(rgba(31,87,122,.6), rgba(31,87,122,.6)), url(images/people.png);
+    background-image: -webkit-linear-gradient(
+            rgba(31, 87, 122, 0.6),
+            rgba(31, 87, 122, 0.6)
+        ),
+        url(images/people.png);
+    background-image: linear-gradient(
+            rgba(31, 87, 122, 0.6),
+            rgba(31, 87, 122, 0.6)
+        ),
+        url(images/people.png);
     background-size: cover;
     height: 450px;
     text-align: center;
@@ -217,7 +226,7 @@ form {
     height: 200px;
     padding: 15px 15px;
     margin: 40px 15px;
-    border-left: 2px solid #F79824;
+    border-left: 2px solid #f79824;
     vertical-align: top;
     text-align: left;
 }
@@ -227,9 +236,7 @@ blockquote {
     line-height: 25px;
     font-weight: 300;
     margin-bottom: 15px;
-
 }
-
 
 cite {
     font-weight: 600;
@@ -243,7 +250,6 @@ cite img {
     position: relative;
     top: 20px;
 }
-
 
 /* ==========================Section What we offer========================== */
 
@@ -274,7 +280,7 @@ cite img {
 }
 
 .text-box h2 {
-    color: #F79824;
+    color: #f79824;
     font-weight: 300;
     margin-top: 60px;
     margin-bottom: 20px;
@@ -297,8 +303,16 @@ cite img {
 /* ==========================Section What we offer========================== */
 
 .inspiration {
-    background-image: -webkit-linear-gradient(rgba(31,87,122,.7), rgba(31,87,122,.7)), url(images/tools.png);
-    background-image: linear-gradient(rgba(31,87,122,.7), rgba(31,87,122,.7)), url(images/tools.png);
+    background-image: -webkit-linear-gradient(
+            rgba(31, 87, 122, 0.7),
+            rgba(31, 87, 122, 0.7)
+        ),
+        url(images/tools.png);
+    background-image: linear-gradient(
+            rgba(31, 87, 122, 0.7),
+            rgba(31, 87, 122, 0.7)
+        ),
+        url(images/tools.png);
     height: 180px;
     background-size: cover;
     background-position: center;
@@ -311,7 +325,6 @@ cite img {
     font-weight: 300;
     line-height: 50px;
 }
-
 
 /* ==========================Section What we offer========================== */
 
@@ -326,7 +339,7 @@ cite img {
 }
 
 .we-differ-text h2 {
-    color: #F79824;
+    color: #f79824;
     font-weight: 300;
     margin-bottom: 30px;
 }
@@ -352,13 +365,16 @@ cite img {
     display: inline-block;
 }
 
-
 /* ==========================Section What we offer========================== */
 
-
 .get-recommendation {
-    background-image: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(images/ready.png);
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(images/ready.png);
+    background-image: -webkit-linear-gradient(
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0)
+        ),
+        url(images/ready.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+        url(images/ready.png);
     background-size: cover;
     background-position: center;
     padding-top: 50px;
@@ -386,18 +402,18 @@ footer {
     width: 1000px;
     margin: auto;
     padding-bottom: 25px;
-    border-bottom: 1px solid #CCCCCC;
+    border-bottom: 1px solid #cccccc;
 }
-.bottom-navigation  a {
+.bottom-navigation a {
     display: block;
-    color: #3594D5;
+    color: #3594d5;
     font-size: 16px;
     line-height: 34px;
     font-weight: 400;
 }
 
 .bottom-navigation a:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 .bottom-navigation span {
@@ -424,14 +440,12 @@ footer {
 .terms p {
     font-size: 11px;
     line-height: 15px;
-    color: #9D9D9D;
+    color: #9d9d9d;
 }
 
 .terms span {
     text-decoration: underline;
 }
-
-
 
 /* Socials and Badge */
 .socials-badge {
@@ -457,16 +471,15 @@ footer {
 }
 
 .fa-twitter-square {
-    color: #4DA7DE;
+    color: #4da7de;
 }
 .fa-facebook-square {
-    color: #3E5B98;
+    color: #3e5b98;
 }
 
 .fa-google-plus-square {
-    color: #D93E2D;
+    color: #d93e2d;
 }
-
 
 .copyright {
     font-size: 14px;
