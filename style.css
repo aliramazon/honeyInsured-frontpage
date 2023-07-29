@@ -1,19 +1,18 @@
-* {
+*,
+*::after,
+*::before {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
     font-family: "Lato", arial, sans-serif;
 }
 
-body,
-html {
-    -webkit-text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-}
-
-/* General Settings */
-
 .container {
-    min-width: 1200px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 ul {
@@ -55,27 +54,27 @@ p {
         url(images/hero.png);
     background-size: cover;
     color: #fff;
-    height: 450px;
+    height: 550px;
     background-position: 85% 30%;
     position: relative;
+    padding: 0 50px;
 }
 
 /* Logo and Navbar */
-nav {
-    width: 1200px;
-    margin: auto;
-}
 
 .logo {
     display: inline-block;
     margin-top: 25px;
+    width: 25%;
 }
 
 .top-nav {
     display: inline-block;
-    margin-left: 625px;
+    text-align: right;
     margin-top: 35px;
     vertical-align: top;
+    width: 75%;
+    margin-left: -5px;
 }
 .top-nav li {
     display: inline-block;
@@ -85,19 +84,16 @@ nav {
 /* Hero box */
 
 .hero-box {
-    width: 750px;
-    margin: 40px auto 30px;
     text-align: center;
 }
 
-form {
-    margin-top: 30px;
+.hero-box p {
+    margin-bottom: 30px;
 }
 
-#zipcode {
+input#zipcode {
     width: 300px;
     padding: 12px;
-    margin-right: -4px;
     outline: none;
     border-style: none;
     border-top-left-radius: 2px;
@@ -106,7 +102,6 @@ form {
 
 #button {
     background-color: #f79824;
-    width: 200px;
     border: none;
     padding: 12px;
     color: #fff;
@@ -130,10 +125,11 @@ form {
     background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
     bottom: 0;
+    left: 0;
 }
 .facts li {
     display: inline-block;
-    margin: 0px 80px;
+    width: 20%;
 }
 
 .facts i {
@@ -154,16 +150,20 @@ form {
     padding: 10px 0;
     opacity: 0.5;
     margin-bottom: 45px;
+    width: calc(100%-100px);
 }
 
 .magazines img {
     height: 40px;
-    width: auto;
 }
 
-/* Text from section goes her */
+.magazines img:not(:last-child) {
+    margin-right: 50px;
+}
+
+/* Text from section goes here */
 .text {
-    width: 780px;
+    width: 80%;
     margin: auto;
 }
 
@@ -187,12 +187,19 @@ form {
 }
 
 /* Providers */
+.providers {
+    width: 80%;
+    margin: 0 auto;
+}
 
 .providers img {
-    height: 60px;
+    height: 40px;
     width: auto;
 }
 
+.providers img:not(:last-child) {
+    margin-right: 30px;
+}
 /* ==========================Section Recommendations========================== */
 
 /* Background image */
@@ -209,26 +216,41 @@ form {
         ),
         url(images/people.png);
     background-size: cover;
-    height: 450px;
     text-align: center;
+    padding: 50px;
+}
+
+.recommendation .row {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .recommendation h2 {
-    padding-top: 50px;
     color: #fff;
     font-weight: 400;
+    margin-bottom: 50px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .review {
     display: inline-block;
     background-color: #fff;
-    width: 275px;
-    height: 200px;
     padding: 15px 15px;
-    margin: 40px 15px;
     border-left: 2px solid #f79824;
     vertical-align: top;
     text-align: left;
+    width: calc((100% - 100px) / 3);
+}
+
+.review:not(:last-child) {
+    margin-right: 50px;
+}
+
+.review:nth-child(2),
+.review:last-child {
+    margin-left: -5px;
 }
 
 blockquote {
@@ -240,12 +262,12 @@ blockquote {
 
 cite {
     font-weight: 600;
-    display: inline-block;
+    display: block;
 }
 cite img {
     height: 50px;
     border-radius: 50px;
-    margin-right: 15px;
+
     display: inline-block;
     position: relative;
     top: 20px;
@@ -255,35 +277,64 @@ cite img {
 
 .what-we-offer {
     text-align: center;
-    padding-top: 50px;
-}
-.offer {
-    margin-bottom: 30px;
+    padding: 50px;
 }
 
-.image-box {
+.what-we-offer .offer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.what-we-offer .image-box {
     display: inline-block;
-    width: 450px;
-    vertical-align: top;
+    width: calc((100% - 50px) / 2);
+    vertical-align: middle;
+}
+
+.what-we-offer .text-box {
+    display: inline-block;
+    width: calc((100% - 50px) / 2);
+    vertical-align: middle;
+    text-align: left;
 }
 
 .image-box img {
-    width: 450px;
+    width: 100%;
     height: auto;
-}
-
-.text-box {
-    display: inline-block;
-    width: 450px;
-    vertical-align: top;
-    text-align: left;
 }
 
 .text-box h2 {
     color: #f79824;
     font-weight: 300;
-    margin-top: 60px;
+
     margin-bottom: 20px;
+}
+
+div.offer:first-child .text-box {
+    margin-right: 50px;
+}
+div.offer:first-child .image-box {
+    margin-left: -5px;
+}
+
+div.offer:nth-child(2) .text-box {
+    margin-left: -5px;
+}
+div.offer:nth-child(2) .image-box {
+    margin-right: 50px;
+}
+div.offer:nth-child(3) .text-box {
+    margin-right: 50px;
+}
+div.offer:nth-child(3) .image-box {
+    margin-left: -5px;
+}
+
+div.offer:last-child .text-box {
+    margin-left: -5px;
+}
+div.offer:last-child .image-box {
+    margin-right: 50px;
 }
 
 .text-box p {
@@ -313,15 +364,16 @@ cite img {
             rgba(31, 87, 122, 0.7)
         ),
         url(images/tools.png);
-    height: 180px;
+
     background-size: cover;
     background-position: center;
     text-align: center;
     color: #fff;
-    padding-top: 65px;
+    min-height: 180px;
 }
 
 .inspiration h2 {
+    padding: 30px 0;
     font-weight: 300;
     line-height: 50px;
 }
@@ -350,19 +402,32 @@ cite img {
     margin-bottom: 30px;
 }
 
+.offer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
 .research-text {
-    width: 375px;
     display: inline-block;
+    width: calc((100% - 50px) * 0.6);
     margin-right: 50px;
-    margin-top: 40px;
+
     text-align: left;
     font-weight: 300;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .research-bar {
-    width: 300px;
+    margin-left: -5px;
+    width: calc((100% - 50px) * 0.4);
     display: inline-block;
+    vertical-align: middle;
+}
+
+.research-bar img {
+    width: 100%;
+    height: auto;
 }
 
 /* ==========================Section What we offer========================== */
@@ -377,9 +442,9 @@ cite img {
         url(images/ready.png);
     background-size: cover;
     background-position: center;
-    padding-top: 50px;
+
     text-align: center;
-    height: 200px;
+    min-height: 200px;
     color: #fff;
 }
 .wrapper {
@@ -399,7 +464,7 @@ footer {
     padding-bottom: 50px;
 }
 .footer-wrapper {
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     padding-bottom: 25px;
     border-bottom: 1px solid #cccccc;
@@ -489,3 +554,18 @@ footer {
 .copyright a {
     color: #e74c3c;
 }
+
+/* 
+    Mobile 300px - 450px
+    Bigger mobile phone 451px - 600px
+    Tablets: 601px - 900px;
+    Small Laptops or Big Tablet: 901-1200px
+    Desktops: 1200px - up
+
+    - 300px
+    300px - 600px
+    600px- 900px
+    900px -1200px
+    1200px-up
+
+*/
