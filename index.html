@@ -10,6 +10,8 @@
         />
 
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="media-query.css" />
+
         <script src="https://use.fontawesome.com/9e42a48f63.js"></script>
     </head>
     <body>
@@ -23,7 +25,10 @@
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Insurance Guide</a></li>
                         <li><a href="#">Track Application</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
+                    <div class="burger-icon">&#9776;</div>
                 </nav>
                 <!--end of navbar and logo -->
                 <div class="hero-box">
@@ -113,7 +118,7 @@
                                     src="images/dawn.png"
                                     alt="Dawn Casey-Rowe"
                                 />
-                                Dawn Casey-Rowe</cite
+                                <span>Dawn Casey-Rowe</span></cite
                             >
                         </blockquote>
                     </div>
@@ -125,7 +130,7 @@
                                 ><img
                                     src="images/yuri.jpg"
                                     alt="Yuri Sagalov"
-                                />Yuri Sagalov</cite
+                                /><span>Yuri Kolashnikov</span></cite
                             >
                         </blockquote>
                     </div>
@@ -255,22 +260,63 @@
             <!-- end of get-recommendation class -->
             <footer>
                 <div class="footer-wrapper">
-                    <nav class="bottom-navigation">
-                        <ul>
-                            <li><a href="#">FindPlans</a></li>
-                            <li><a href="#">Insurance Guide</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Press</a></li>
-                            <li><a href="#">Licenses</a></li>
-                            <li>
-                                <a href="#">Terms <span>&amp;</span> Privacy</a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <div class="company">
+                        <nav class="bottom-navigation">
+                            <ul>
+                                <li><a href="#">FindPlans</a></li>
+                                <li><a href="#">Insurance Guide</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Press</a></li>
+                                <li><a href="#">Licenses</a></li>
+                                <li>
+                                    <a href="#"
+                                        >Terms <span>&amp;</span> Privacy</a
+                                    >
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="socials-badge">
+                            <div class="socials">
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i
+                                                class="fa fa-twitter-square"
+                                                aria-hidden="true"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i
+                                                class="fa fa-facebook-square"
+                                                aria-hidden="true"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i
+                                                class="fa fa-google-plus-square"
+                                                aria-hidden="true"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="badge">
+                                <img
+                                    src="images/badge_light.png"
+                                    alt="Mobile Analytics"
+                                />
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="terms">
                         <p>
                             This website is operated by CortexML Inc. DBA
@@ -289,42 +335,6 @@
                             go to Health Insurance Marketplace website at
                             <span>HealthCare.gov.</span>
                         </p>
-                    </div>
-                    <div class="socials-badge">
-                        <div class="socials">
-                            <ul>
-                                <li>
-                                    <a href="#"
-                                        ><i
-                                            class="fa fa-twitter-square"
-                                            aria-hidden="true"
-                                        ></i
-                                    ></a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        ><i
-                                            class="fa fa-facebook-square"
-                                            aria-hidden="true"
-                                        ></i
-                                    ></a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        ><i
-                                            class="fa fa-google-plus-square"
-                                            aria-hidden="true"
-                                        ></i
-                                    ></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="badge">
-                            <img
-                                src="images/badge_light.png"
-                                alt="Mobile Analytics"
-                            />
-                        </div>
                     </div>
                 </div>
                 <p class="copyright">

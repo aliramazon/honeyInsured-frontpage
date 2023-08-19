@@ -1,0 +1,88 @@
+@media (max-width: 1100px) {
+    blockquote {
+        font-size: 16px;
+    }
+
+    cite img {
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    cite span {
+        position: relative;
+        top: 20px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 1000px) {
+    input#zipcode {
+        width: auto;
+    }
+
+    .providers img {
+        height: 30px;
+    }
+
+    .recommendation .row {
+        width: 90%;
+    }
+}
+
+@media (max-width: 900px) {
+    /* Top Nav */
+    .top-nav {
+        display: none;
+    }
+
+    .burger-icon {
+        font-size: 26px;
+        display: inline-block;
+        text-align: right;
+        margin-top: 30px;
+        vertical-align: top;
+        width: 75%;
+        margin-left: -5px;
+    }
+
+    blockquote {
+        font-size: 14px;
+    }
+
+    .review {
+        width: calc((100% - 60px) / 3);
+    }
+
+    .review:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .what-we-offer .image-box {
+        display: block;
+        width: 100%;
+    }
+
+    .what-we-offer .text-box {
+        display: block;
+        width: 100%;
+    }
+
+    div.offer:first-child .text-box {
+        margin-bottom: 30px;
+    }
+    .company {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .terms {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 400px) {
+}
